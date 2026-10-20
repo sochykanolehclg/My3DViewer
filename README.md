@@ -12,3 +12,7 @@
 cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=/шлях/до/vcpkg/scripts/buildsystems/vcpkg.cmake
 cmake --build build
 ./build/My3DViewer
+
+## Статус
+
+Базова структура проєкту створена: налаштовано CMake, підключено GLM і GLFW через vcpkg.
